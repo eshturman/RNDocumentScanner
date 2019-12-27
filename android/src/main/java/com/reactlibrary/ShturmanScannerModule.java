@@ -17,7 +17,7 @@ public class ShturmanScannerModule extends ReactContextBaseJavaModule {
 
     private Promise activityResultPromise;
 
-    DocScannerModule(ReactApplicationContext reactContext) {
+    ShturmanScannerModule(ReactApplicationContext reactContext) {
         super(reactContext);
         reactContext.addActivityEventListener(new BaseActivityEventListener() {
             @Override
